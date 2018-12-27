@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Input Form</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="responsive.css">
+</head>
+
+<body>
+
+	<section id="container">		
+		<h2>Insert movie details</h2>
+		<form name="hongkiat" id="hongkiat-form" method="post" action="#">
+		<div id="wrapping" class="clearfix">
+			<section id="aligned">
+				<input type="text" name="name" id="name" placeholder="Movie name*" autocomplete="off" tabindex="1" class="txtinput">
+			
+				<input type="email" name="email" id="email" placeholder="Year*" autocomplete="off" tabindex="2" class="txtinput">
+			
+				<input type="tel" name="telephone" id="telephone" placeholder="Length(optional)" tabindex="4" class="txtinput">
+			
+				<textarea name="message" id="message" placeholder="Enter a precise description..." tabindex="5" class="txtblock"></textarea>
+			</section>
+			
+			<section id="aside" class="clearfix">
+				<section id="recipientcase">
+				  <h3>Category:</h3>
+					<select id="recipient" name="recipient" tabindex="6" class="selmenu">
+  						<option value="staff">Add a category</option>
+  						<option value="none">Drama</option>
+  						<option value="editor">Adventure</option>
+  						<option value="technical">Romantic</option>
+  						<option value="pr">Tragedy</option>
+  						<option value="support">War</option>
+					</select>
+				</section>
+
+				<section id="recipientcase">
+				  <h3>Director:</h3>
+					<select id="recipient" name="recipient" tabindex="7" class="selmenu">
+						<option value="staff">Add a director</option>
+  						<option value="none">Satyajit Ray</option>
+  						<option value="editor">Srijit Mukherji</option>
+  						<option value="technical">Biplab Chowdhury</option>
+  						<option value="pr">Raj Chakraborty</option>
+  						<option value="support">Ritwik Ghatak</option>
+					</select>
+				</section>
+
+				<section id="recipientcase">
+				  <h3>Actor:</h3>
+					<select id="recipient" name="recipient" tabindex="8" class="selmenu">
+						<option value="staff">Add a actor</option>
+  						<option value="none">Satyajit Ray</option>
+  						<option value="editor">Srijit Mukherji</option>
+  						<option value="technical">Biplab Chowdhury</option>
+  						<option value="pr">Raj Chakraborty</option>
+  						<option value="support">Ritwik Ghatak</option>
+					</select>
+				</section>
+				
+				<section id="recipientcase">
+				  <h3>Actress:</h3>
+					<select id="recipient" name="recipient" tabindex="9" class="selmenu">
+						<option value="staff">Add a actress</option>
+  						<option value="none">Satyajit Ray</option>
+  						<option value="editor">Srijit Mukherji</option>
+  						<option value="technical">Biplab Chowdhury</option>
+  						<option value="pr">Raj Chakraborty</option>
+  						<option value="support">Ritwik Ghatak</option>
+					</select>
+				</section>				
+			</section>
+		</div>
+
+		<section id="buttons">
+			<input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Reset">
+			<input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="10" value="Submit this!">
+			<br style="clear:both;">
+		</section>
+		</form>
+	</section>
+
+</body>
+</html>
